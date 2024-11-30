@@ -1,0 +1,21 @@
+.place {
+    margin: 90px auto 80px;
+    display: grid;
+}
+.place__location {
+  font-weight: 900;
+  font-size: 72px;
+  line-height: 76px;
+}
+
+.place__image {
+    max-width: 460px;
+    max-height: 460px;
+}
+
+.place__artist {
+    text-transform: uppercase;
+    font-size: 12px;
+    line-height: 14.52px;
+    color: #AAA;
+}
