@@ -1,11 +1,22 @@
 .place {
     margin: 90px auto 80px;
     display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    grid-template-rows: auto 460px auto;
+    gap: 48px 40px;
+    grid-template-areas:
+        "title details"
+        "image paragraphs"
+        "button paragraphs";
 }
 .place__location {
   font-weight: 900;
   font-size: 72px;
   line-height: 76px;
+  max-width: 460px;
+  max-height: 152px;
+  align-self: end;
+  margin: 0;
 }
 
 .place__image {
@@ -13,9 +24,18 @@
     max-height: 460px;
 }
 
+.place__details {
+    align-self: end;
+}
+
 .place__artist {
     text-transform: uppercase;
     font-size: 12px;
     line-height: 14.52px;
     color: #AAA;
+    margin-bottom: 8px;
+}
+
+.place__name {
+    margin: 0;
 }

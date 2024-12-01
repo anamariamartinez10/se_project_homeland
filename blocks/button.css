@@ -1,0 +1,12 @@
+.button__buy {
+    font-weight: 600;
+    font-size: 16px;
+    line-height: 21.78px;
+    color: #fff;
+    background-color: #0278FE;
+    border-radius: 4px;
+    padding: 13px 20px;
+    align-self: baseline;
+    max-width: 248px;
+    max-height: 48px;
+}
