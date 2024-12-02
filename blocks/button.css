@@ -9,4 +9,5 @@
     align-self: baseline;
     max-width: 248px;
     max-height: 48px;
+    cursor: pointer;
 }
